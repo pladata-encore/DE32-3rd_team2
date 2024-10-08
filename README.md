@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Age%20Classifier&desc=DE32%203rd%20project%20TEAM2&animation=twinkling&fontSize=60&descSize=30&fontColor=000000&fontAlignY=40)
 
 ## 프로젝트 개요
-얼굴 사진을 업로드하면 age-classifier 모델로 **나이**를 **예측**하는 **프로그램**
+얼굴 사진을 업로드하면 [age-classifier 모델](https://huggingface.co/nateraw/vit-age-classifier)로 **나이**를 **예측**하는 **프로그램**
 
 
 ## 스택
