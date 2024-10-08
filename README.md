@@ -15,7 +15,7 @@ else
 3. predict : 모델을 이용하여 얼굴 나이 예측 진행
 > 가상환경 생성, Dependency 설치, 모델 load 등 소요시간이 길어 가상환경을 cache하였음
 4. save.log : 예측한 정보 log파일로 저장
-```
+```bash
 $ tail -n 1 pred.log
 82,2,2024-10-08 16:33:21     # num, pred_rst, pred_dt
 ```
