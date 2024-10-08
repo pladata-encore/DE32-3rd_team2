@@ -21,7 +21,7 @@ $ tail -n 1 pred.log
 ```
 
 ### Dependency
-![airflow](https://img.shields.io/badge/apacheairflow-017CEE.svg?style=for-the-badge&logo=apacheairflow&logoColor=FFFFFF)
+![airflow](https://img.shields.io/badge/apache--airflow-017CEE.svg?style=for-the-badge&logo=apacheairflow&logoColor=FFFFFF)
 ![transformers](https://img.shields.io/badge/transformers-FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=000000)
 ![torch](https://img.shields.io/badge/pytorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=FFFFFF)
 ![requests](https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=FFFFFF)
