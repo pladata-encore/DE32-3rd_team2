@@ -125,3 +125,10 @@ $ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /ho
 
 
 </details>
+
+
+## 추가 자료
+[Team Repo](https://github.com/DE32-3rd-team2)
+
+
+[ppt](https://docs.google.com/presentation/d/1jdMeT6TdQPqhJmaykNOOQuJ3xrED2az9lBfEU_Oh_Lg/edit?usp=sharing)
