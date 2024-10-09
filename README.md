@@ -83,11 +83,29 @@ $ docker pull 어쩌고
 
 
 ### 시각화
-1. [Streamlit](http://54.180.238.29:8032/age_acc#d18cd05) 접속
-2. 나이대별 예측 정확도 그래프
+1. [Streamlit](http://52.78.181.205:8032/chart) 접속
+2. 전체 데이터 예측 정확도 통계
 
 <details>
-   <summary><strong>그래프 화면</strong></summary>
+   <summary><strong>전체 데이터 예측 정확도 화면</strong></summary>
+
+   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+
+</details>
+
+3. 나이대별 예측 정확도 통계
+
+<details>
+   <summary><strong>나이대별 예측 정확도 화면</strong></summary>
+
+   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+
+</details>
+
+4. 오차율 분석 통계
+
+<details>
+   <summary><strong>오차율 분 화면</strong></summary>
 
    ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
 
