@@ -41,7 +41,82 @@ $ sudo docker run -d \
         --env MARIADB_DATABASE=team2 \
         --env MARIADB_ROOT_PASSWORD=my-secret-pw \
         -p 23306:3306 \
-        mariadb:late석 화면</strong></summary>
+        mariadb:latest
+
+$ sudo docker run -d -p 8022:8080 --name age_pred -e DB_IP=172.17.0.1 -v /home/ubuntu/images:/home/ubuntu/images seokxkyu/age_pred:2.0.1
+
+$ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /home/ubuntu/images:/home/ubuntu/images --name stream j25ng/streamlit:7.0.2
+```
+
+## 이용
+### 사용자
+1. [Streamlit](http://54.180.238.29:8032/) 접속
+2. Upload Image 접속
+3. 이미지 업로드
+   
+<details>
+  <summary><strong>업로드 화면</strong></summary>
+
+  ![image](https://github.com/user-attachments/assets/017564f9-ecf9-49c9-83e7-1abcf9b8b66b)
+
+
+
+</details>   
+
+4. [Streamlit](http://54.180.238.29:8032/all) 접속
+5. 이미지 예상 나이 확인
+<details>
+  <summary><strong>나이 예측 화면</strong></summary>
+
+ ![image](https://github.com/user-attachments/assets/1a487d18-234a-422b-b4f5-8c1c0f499b0a)
+
+
+
+</details> 
+
+
+
+### 관리자
+1. [Streamlit](http://54.180.238.29:8032/admin) 접속
+2. Manage 접속
+3. 비밀번호 입력
+4. 얼굴이 아닌 이미지 삭제 및 정답 결과 라벨링
+   
+<details>
+  <summary><strong>데이터 전처리 화면</strong></summary>
+
+![image](https://github.com/user-attachments/assets/fdc68695-9c77-48d9-80be-92f65c0b36b4)
+
+
+
+</details> 
+ 
+
+
+### 시각화
+1. [Streamlit](http://52.78.181.205:8032/chart) 접속
+2. 전체 데이터 예측 정확도 통계
+
+<details>
+   <summary><strong>전체 데이터 예측 정확도 화면</strong></summary>
+
+   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+
+</details>
+
+3. 나이대별 예측 정확도 통계
+
+<details>
+   <summary><strong>나이대별 예측 정확도 화면</strong></summary>
+
+   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+
+</details>
+
+4. 오차율 분석 통계
+
+<details>
+   <summary><strong>오차율 분석 화면</strong></summary>
 
    ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
 
