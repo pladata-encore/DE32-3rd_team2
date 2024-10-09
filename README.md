@@ -34,7 +34,18 @@
 
 ## 기본 설정
 ```
-$ docker pull 어쩌고
+$ sudo docker run -d \
+        --name 3rd-t2-mariadb \
+        -e MARIADB_USER=3rd \
+        --env MARIADB_PASSWORD=1234 \
+        --env MARIADB_DATABASE=team2 \
+        --env MARIADB_ROOT_PASSWORD=my-secret-pw \
+        -p 23306:3306 \
+        mariadb:latest
+
+$ sudo docker run -d -p 8022:8080 --name age_pred -e DB_IP=172.17.0.1 -v /home/ubuntu/images:/home/ubuntu/images seokxkyu/age_pred:2.0.1
+
+$ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /home/ubuntu/images:/home/ubuntu/images --name stream j25ng/streamlit:7.0.2
 ```
 
 ## 이용
