@@ -100,7 +100,8 @@ $ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /ho
 <details>
    <summary><strong>전체 데이터 예측 정확도 화면</strong></summary>
 
-   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+  ![image](https://github.com/user-attachments/assets/d9ccbdaa-26c8-4ecb-8fc7-dc20f097eefe)
+
 
 </details>
 
@@ -109,7 +110,9 @@ $ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /ho
 <details>
    <summary><strong>나이대별 예측 정확도 화면</strong></summary>
 
-   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+![image](https://github.com/user-attachments/assets/94ecd78e-38fa-467e-9856-ce3509476fb3)
+
+
 
 </details>
 
@@ -118,6 +121,7 @@ $ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /ho
 <details>
    <summary><strong>오차율 분석 화면</strong></summary>
 
-   ![image](https://github.com/user-attachments/assets/8371d49d-31f3-47dd-b844-7b60f3664346)
+   ![image](https://github.com/user-attachments/assets/7265f7cc-9178-475f-b0c6-7ff4346af883)
+
 
 </details>
