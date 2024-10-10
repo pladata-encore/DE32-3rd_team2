@@ -131,4 +131,4 @@ $ sudo docker run -d -p 8032:8501 -e EC2_IP=172.17.0.1 -e PWD=<admin_pwd> -v /ho
 [Team Repo](https://github.com/DE32-3rd-team2)
 
 
-[ppt](https://docs.google.com/presentation/d/1jdMeT6TdQPqhJmaykNOOQuJ3xrED2az9lBfEU_Oh_Lg/edit?usp=sharing)
+[ppt](https://docs.google.com/presentation/d/1ixqEXzwKLx4wKrZmdK83VFu6j58fUiI1B-Fugi0c9Bc/edit#slide=id.g309ef4dbfde_2_0)
